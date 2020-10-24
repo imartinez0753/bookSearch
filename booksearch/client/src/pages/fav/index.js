@@ -46,10 +46,7 @@ class Search extends Component {
                             src={book.pic} /> 
                               <Card.Title>{book.name}</Card.Title>      
                                 <Card.Body>{book.descript}</Card.Body>
-                                  <Button 
-                                    id={book.id}
-                                    onClick={(event) => this.postFav(event)}
-                                    variant="primary">Fav</Button>
+                                  
                           </Card>        
                        </li>      
                     </ul>
